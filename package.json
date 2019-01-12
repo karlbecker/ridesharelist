@@ -1,0 +1,23 @@
+{
+  "name": "ridesharelist",
+  "version": "0.0.1",
+  "description": "List to keep track of ride sharing services in different places around the world.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ride",
+    "share",
+    "rideshare",
+    "uber",
+    "lyft",
+    "grab"
+  ],
+  "author": "Karl Becker",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
