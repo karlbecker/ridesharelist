@@ -14,8 +14,7 @@ app.get('/api/v1/rideshare-services.json', (req, res) => res.send([
       {
         lat: 30.267777,
         long: -97.741868,
-        radius: 27,
-        radiusUnits: 'mi',
+        radiusInMiles: 27,
       }
     ],
     apps: [
