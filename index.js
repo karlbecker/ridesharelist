@@ -10,6 +10,8 @@ app.get('/api/v1/rideshare-services.json', (req, res) => res.send([
   {
     name: 'RideAustin',
     url: 'https://rideaustin.com',
+    description: "Ridesharing is valuable to all citizens, empowers drivers and riders, saves lives, and is part of any transportation future. We created RideAustin to get the city moving again and to reinvest in our community. RideAustin's official nonprofit filing name is 'Ride Share Austin'.  Details below on the Texas Secretary of State Filing Number. A special thanks goes to Cullinane Law for their help with our 501(c)3 filing.  Also note that we have filed an extension for our 990 with the IRS for 2016, and will make it available once it has been submitted.",
+    locationDescription: 'Austin and the entire greater Austin area!',
     locations: [
       {
         lat: 30.267777,
